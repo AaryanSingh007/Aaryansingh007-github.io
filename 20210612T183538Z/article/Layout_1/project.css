@@ -1,6 +1,31 @@
-.char-H3-Local-2 {
-    font-family:'DM Serif Text','DMSerifText-Regular';
-    font-size:36px;
+
+@font-face{
+    font-family:'Montserrat';
+    src:url('../assets/fonts/Montserrat-Regular.ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'DM Serif Text';
+    src:url('../assets/fonts/DMSerifText-Regular.ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'Montserrat Medium';
+    src:url('../assets/fonts/Montserrat-Medium.ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'Alex Brush';
+    src:url('../assets/fonts/AlexBrush-Regular.ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+.char-Normal-Local-3 {
+    font-family:'Alex Brush','AlexBrush-Regular';
+    font-size:48px;
     font-weight:normal;
     text-decoration:none;
     -webkit-font-kerning:Normal;
@@ -9,23 +34,36 @@
     font-variant-ligatures:no-common-ligatures;
     -webkit-font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
     font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
-    color:#575A89;
+    color:white;
 }
-.char-Subtitle-Local-1 {
-    font-family:'Montserrat','Montserrat-Regular';
-    font-size:20px;
-    font-weight:normal;
-    text-decoration:none;
-    -webkit-font-kerning:Normal;
-    font-kerning:Normal;
-    -webkit-font-variant-ligatures:no-common-ligatures;
-    font-variant-ligatures:no-common-ligatures;
-    -webkit-font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
-    font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
-    color:#5B5A69;
-}
-.char-Button-Local-0 {
+.char-Menu-Local-2 {
     font-family:'Montserrat Medium','Montserrat-Medium';
+    font-size:14px;
+    font-weight:normal;
+    text-decoration:none;
+    -webkit-font-kerning:Normal;
+    font-kerning:Normal;
+    -webkit-font-variant-ligatures:no-common-ligatures;
+    font-variant-ligatures:no-common-ligatures;
+    -webkit-font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
+    font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
+    color:white;
+}
+.char-H2-Local-1 {
+    font-family:'DM Serif Text','DMSerifText-Regular';
+    font-size:48px;
+    font-weight:normal;
+    text-decoration:none;
+    -webkit-font-kerning:Normal;
+    font-kerning:Normal;
+    -webkit-font-variant-ligatures:no-common-ligatures;
+    font-variant-ligatures:no-common-ligatures;
+    -webkit-font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
+    font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
+    color:white;
+}
+.char-BodySmall-Local-0 {
+    font-family:'Montserrat','Montserrat-Regular';
     font-size:16px;
     font-weight:normal;
     text-decoration:none;
@@ -35,14 +73,14 @@
     font-variant-ligatures:no-common-ligatures;
     -webkit-font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
     font-feature-settings:"rlig" 0, "liga" 0, "clig" 0, "calt" 0, "locl" 0, "ccmp" 0, "mark" 0, "mkmk" 0;
-    color:#D0CDE1;
+    color:#DAD7E7;
 }
-.para-H3 {
+.para-NoStyle-3 {
     text-align:center;
     page-break-inside:initial !important;
-    hyphens:none;
-    -webkit-hyphens:none;
-    -ms-hyphens:none;
+    hyphens:auto;
+    -webkit-hyphens:auto;
+    -ms-hyphens:auto;
     line-height:1px;
     margin-top:0px;
     margin-bottom:0px;
@@ -53,29 +91,10 @@
     padding-left:0px;
     padding-right:0px;
 }
-.para-H3 span {
+.para-NoStyle-3 span {
     line-height:1.2em;
 }
-.para-Subtitle {
-    text-align:center;
-    page-break-inside:initial !important;
-    hyphens:none;
-    -webkit-hyphens:none;
-    -ms-hyphens:none;
-    line-height:1px;
-    margin-top:0px;
-    margin-bottom:0px;
-    margin-left:0px;
-    margin-right:0px;
-    padding-top:20px;
-    padding-bottom:0px;
-    padding-left:0px;
-    padding-right:0px;
-}
-.para-Subtitle span {
-    line-height:1.6em;
-}
-.para-Button {
+.para-Menu {
     text-align:center;
     page-break-inside:initial !important;
     hyphens:none;
@@ -91,8 +110,46 @@
     padding-left:0px;
     padding-right:0px;
 }
-.para-Button span {
+.para-Menu span {
     line-height:1.8em;
+}
+.para-H2-Local-1 {
+    text-align:left;
+    page-break-inside:initial !important;
+    hyphens:none;
+    -webkit-hyphens:none;
+    -ms-hyphens:none;
+    line-height:1px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+}
+.para-H2-Local-1 span {
+    line-height:1.2em;
+}
+.para-BodySmall {
+    text-align:left;
+    page-break-inside:initial !important;
+    hyphens:none;
+    -webkit-hyphens:none;
+    -ms-hyphens:none;
+    line-height:1px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+}
+.para-BodySmall span {
+    line-height:1.6em;
 }
 .QxpSVG {
     position:inherit;

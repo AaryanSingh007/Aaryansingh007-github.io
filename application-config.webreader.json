@@ -1,0 +1,27 @@
+{
+   "appconfig" : {},
+   "duration" : "10",
+   "issues" : [
+      {
+         "appleId" : "",
+         "bundle" : "20210612T183538Z",
+         "bundleSize" : 1,
+         "description" : "Html5",
+         "id" : "urn:uuid:quark:html5:Project1:publication",
+         "isFree" : true,
+         "lastPublishedDate" : "2021-06-12T18:35:55Z",
+         "media:content" : [],
+         "media:thumbnail" : [],
+         "minimumAppVersion" : "1.0.0",
+         "previews" : {},
+         "publishedDate" : "2021-06-12T18:35:55Z",
+         "subtitle" : "Html5",
+         "tabletIssuePath" : "Html5",
+         "thumbnails" : {},
+         "title" : "Project1"
+      }
+   ],
+   "name" : "Web Reader",
+   "published" : "2021-06-12T18:35:55Z",
+   "version" : "1.0"
+}

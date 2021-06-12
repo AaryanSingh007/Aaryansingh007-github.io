@@ -1,0 +1,49 @@
+{
+   "contents" : [
+      {
+         "abstract" : null,
+         "author" : null,
+         "id" : "Project1",
+         "series" : null,
+         "socialComment" : null,
+         "socialImageUrl" : null,
+         "socialUrl" : null,
+         "tags" : null,
+         "title" : "",
+         "titleHtml" : "Project1",
+         "type" : "article"
+      }
+   ],
+   "id" : "urn:uuid:quark:html5:Project1:publication",
+   "media" : null,
+   "publishedDate" : "2021-06-12T18:35:55Z",
+   "subtitle" : null,
+   "title" : "Project1",
+   "variants" : [
+      {
+         "fontSize" : "16",
+         "height" : "1920",
+         "orientation" : "portrait",
+         "pages" : [
+            {
+               "contents" : [
+                  {
+                     "href" : "#Project1",
+                     "pageRef" : "1"
+                  }
+               ],
+               "id" : "1",
+               "preview1024" : "article/Layout_1/assets/Page1_preview.jpeg",
+               "properties" : {
+                  "height" : "",
+                  "responsive" : "true",
+                  "width" : ""
+               },
+               "thumbnail" : "article/Layout_1/assets/Page1_preview.jpeg",
+               "url" : "article/Layout_1/Page1.html"
+            }
+         ],
+         "width" : "1280"
+      }
+   ]
+}
